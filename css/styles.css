@@ -1,0 +1,134 @@
+body{
+	background-color: #3A3637;
+}
+
+#navbar {
+	padding-left: 0;
+	float: right;
+}
+#navbar a{
+	padding-left: 0
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ 
+.navbar-brand{
+	padding-top: 17px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand {
+  font-size: 22px;
+  color: #fff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #9d9d9d;
+  background-color: transparent;
+}
+
+.map{
+	margin-top: 100px;
+}
+
+.sn-name{
+	display: none;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	#map_canvas {
+		width:940px;  
+		height:700px
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+		#map_canvas {
+		width:940px; 
+		height:620px
+	}
+	
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+		#map_canvas {
+		width:705px; 
+		height:500px
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	#map_canvas {
+		width:672px; 
+		height:500px
+	}
+	
+	#navbar {
+		width: 100%;
+		float: left;
+		margin-left: 0;
+	}
+
+	.sn-name {
+		display: inline;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	#map_canvas {
+		width:432px; 
+		height:500px
+	}
+}
+
+/* iPhone 6 Plus */
+@media (max-width: 414px){
+    #map_canvas {
+    	width: 383px;
+    	height: 500px
+    }
+}
+
+/* Nexus 5X */
+@media (max-width: 412px) {
+	#map_canvas {
+		width: 382px;
+		height: 500px
+	}
+}
+
+/* iPhone 6 */
+@media (max-width: 375px){
+	#map_canvas {
+		width: 345px;
+		height: 500px
+	}
+}
+
+/* Galaxy 5*/
+@media (max-width: 360px){
+	#map_canvas {
+		width: 330px; 
+		height:500px
+	}
+	.navbar-inverse .navbar-brand {
+		font-size: 18px;
+	}
+
+}
+/* Iphone 4*/
+@media (max-width: 320px) {
+	#map_canvas {
+		width: 290px; 
+		height:500px
+	}
+	.navbar-inverse .navbar-brand {
+		font-size: 18px;
+	}
+}
